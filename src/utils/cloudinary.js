@@ -1,7 +1,6 @@
 // this code is reusable for another project also
 
 import { v2 as cloudinary } from "cloudinary"; 
-import { log } from "console";
 import fs from "fs"
 
 cloudinary.config({ 
@@ -27,3 +26,4 @@ const uploadOnCloudinary = async (localFilePath) => {
         return null
     }
 }
+
